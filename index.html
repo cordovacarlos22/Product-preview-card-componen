@@ -3,34 +3,60 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css" >
   <link rel="preconnect" href="https://fonts.googleapis.com"> 
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Inter:wght@400;700&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
-  <title>Frontend Mentor | Stats preview card component</title>
+  <title>Frontend Mentor | Product preview card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
-<body>
+<body> 
 
-  Get insights that help your business grow.
+  <main class="main-container">
+    <figure>
+      <img src="/images/image-product-desktop.jpg" alt="perfume" class="main-img">
+    </figure>
+    <section class="main-card">
+        <h6 class="sub-header">Perfume</h6>
+        <h1 class="card-header">Gabrielle Essence Eau De Parfum</h1>
+         <p class="card-paragra">  A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+          Perfumer-Creator for the House of CHANEL.</p>
+      </article>
+      <div class="card-total">
+        <p class="price">$149.99  <span class="discount-tag"><s>$169.99</s></span> </p>
+       
+      </div>
 
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
+      <button class="card-add-to-cart">
+        
+        <img class="icon" src="/images/icon-cart.svg" alt="cart-icon">
+          Add to cart
+      </button>
+    </section>
+    
+  </main>
 
-  10k+ companies
-  314 templates
-  12m+ queries
+  <!--
+    
+  preview
 
+  
+
+
+
+  $149.99
+  $169.99
+
+  Add to Cart-->
+
+  
+  
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Carlos Cordova Ortiz</a>.
   </div>
 </body>
 </html>
