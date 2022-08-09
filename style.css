@@ -123,5 +123,9 @@ html{
     transform:translate(1px,1px);
 }
 /*footer*/
-.attribution { font-size: 11px; text-align: center; }
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    position: static; 
+ }
     .attribution a { color: hsl(228, 45%, 44%); }
