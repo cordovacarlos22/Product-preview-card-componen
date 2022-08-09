@@ -127,5 +127,8 @@ html{
     font-size: 11px; 
     text-align: center;
     position: static; 
+    background-color: var(--Cream);
+    width: auto;
+    height: auto;
  }
     .attribution a { color: hsl(228, 45%, 44%); }
